@@ -319,7 +319,7 @@
                   </span>
 
                   <!-- TODO: Add your supplementary material PDF or remove this section -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://arxiv.org/abs/2509.15459" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -327,7 +327,7 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
@@ -348,6 +348,28 @@
                         <i class="ai ai-arxiv"></i>
                       </span>
                       <span>arXiv</span>
+                    </a>
+                  </span>
+
+                  <!-- Poster -->
+                  <span class="link-block">
+                    <a href="static/pdfs/Poster.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-thumbtack"></i>
+                      </span>
+                      <span>Poster</span>
+                    </a>
+                  </span>
+
+                  <!-- Slides -->
+                  <span class="link-block">
+                    <a href="static/pdfs/CAGE.pptx" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-powerpoint"></i>
+                      </span>
+                      <span>Slides</span>
                     </a>
                   </span>
                 </div>
@@ -416,15 +438,17 @@
 
 
     <!-- Image carousel -->
-    <section class="hero is-small">
-      <div class="hero-body">
-       
-        <div class="container">
-          <h2 class="title is-3">Architecture of the CAGE network</h2>
-          <img src="static/images/pipeline.png"  id="pipeline" style="width:100%; height:auto;">          
-          
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+        
+          <div class="container">
+            <h2 class="title is-3">Architecture of the CAGE network</h2>
+            <img src="static/images/pipeline.png"  id="pipeline" style="width:100%; height:auto;">          
+            
+          </div>
         </div>
-      </div>
+    </div>
     </section>
     <!-- End image carousel -->
 
@@ -433,17 +457,20 @@
 
     <!-- Youtube video -->
     <section class="hero is-small is-light">
-      <div class="hero-body">
-        <div class="container">
-          <!-- Paper video. -->
-          <h2 class="title is-3">Video Presentation</h2>
-          <div class="columns is-centered has-text-centered">
-            <div class="column is-four-fifths">
+      
+        <div class="hero-body">
+          <div class="container">
+            <div class="container is-max-desktop">
+            <!-- Paper video. -->
+            <h2 class="title is-3">Video Presentation</h2>
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
 
-              <div class="publication-video">
-                <!-- TODO: Replace with your YouTube video ID -->
-                <iframe src="static\videos\cage_video.mp4" frameborder="0"
-                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="publication-video">
+                  <!-- TODO: Replace with your YouTube video ID -->
+                  <iframe src="static\videos\cage_video.mp4" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -455,38 +482,40 @@
 
 
     <section class="hero is-small">
-      <div class="hero-body">
-        <div class="container">   
-          <h2 class="title is-3">Visualization Results</h2>      
-            <div class="item" >
-              <!-- TODO: Replace with your research result images -->
-              <img src="static/images/sota_s3d.svg"  style="width: 100%;" />
-              <!-- TODO: Replace with description of this result -->
-              <h2 class="subtitle has-text-centered">
-                Visualization results on Structured3D.
-              </h2>
-            </div>
-            <div class="item">
-              <!-- Your image here -->
-              <img src="static/images/sota_scenecad.png" />
-              <h2 class="subtitle has-text-centered">
-                Visualization results on SceneCAD.
-              </h2>
-            </div>
-            <!-- <div class="item"> -->
-              <!-- Your image here -->
-              <!-- <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy" />
-              <h2 class="subtitle has-text-centered">
-                Third image description.
-              </h2>
-            </div>
-            <div class="item"> -->
-              <!-- Your image here -->
-              <!-- <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy" />
-              <h2 class="subtitle has-text-centered">
-                Fourth image description.
-              </h2> -->
-            <!-- </div> -->
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <div class="container">   
+            <h2 class="title is-3">Visualization Results</h2>      
+              <div class="item" >
+                <!-- TODO: Replace with your research result images -->
+                <img src="static/images/sota_s3d.svg"  style="width: 100%;" />
+                <!-- TODO: Replace with description of this result -->
+                <h2 class="subtitle has-text-centered">
+                  Visualization results on Structured3D.
+                </h2>
+              </div>
+              <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/sota_scenecad.png" />
+                <h2 class="subtitle has-text-centered">
+                  Visualization results on SceneCAD.
+                </h2>
+              </div>
+              <!-- <div class="item"> -->
+                <!-- Your image here -->
+                <!-- <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy" />
+                <h2 class="subtitle has-text-centered">
+                  Third image description.
+                </h2>
+              </div>
+              <div class="item"> -->
+                <!-- Your image here -->
+                <!-- <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy" />
+                <h2 class="subtitle has-text-centered">
+                  Fourth image description.
+                </h2> -->
+              <!-- </div> -->
+          </div>
         </div>
       </div>
     </section>
@@ -496,17 +525,17 @@
 
 
     <!-- Paper poster -->
-    <section class="hero is-small is-light">
+    <!-- <section class="hero is-small is-light">
       <div class="hero-body">
         <div class="container">
-          <h2 class="title">Poster</h2>
+          <h2 class="title">Poster</h2> -->
 
           <!-- TODO: Replace with your poster PDF -->
-          <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
+          <!-- <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
 
         </div>
-      </div>
+      </div> -->
     </section>
     <!--End paper poster -->
 
